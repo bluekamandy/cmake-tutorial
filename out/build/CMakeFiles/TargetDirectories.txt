@@ -1,0 +1,6 @@
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/CMakeFiles/rebuild_cache.dir
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/CMakeFiles/edit_cache.dir
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/CMakeFiles/OLAS.dir
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/library/CMakeFiles/rebuild_cache.dir
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/library/CMakeFiles/edit_cache.dir
+/Users/masoodkamandy/Desktop/_CODING/OurLordAndSavior/out/build/library/CMakeFiles/library.dir
