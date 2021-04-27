@@ -1,11 +1,34 @@
 #include <iostream>
 #include "library.h"
+#include <GLFW/glfw3.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    GLFWwindow *window;
 
-    std::cout << add(45.3f, 23.1f) << std::endl;
+    if (!glfwInit())
+    {
+        fprintf(stderr, "Failed to initialize GLFW\n");
+        exit(EXIT_FAILURE);
+    }
+
+    window = glfwCreateWindow(300, 300, "MyProject", NULL, NULL);
+
+    if (!window)
+    {
+        fprintf(stderr, "Failed to open GLFW window\n");
+        glfwTerminate();
+        exit(EXIT_FAILURE);
+    }
+
+    // Main Loop
+
+    while (!glfwWindowShouldClose(window))
+    {
+        glfwPollEvents();
+    }
+
+    glfwTerminate();
 
     return 0;
 }

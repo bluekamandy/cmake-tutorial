@@ -20,4 +20,7 @@ target_link_directories(${PROJECT_NAME}
 )
 
 ## Link library to project.
-target_link_libraries(${PROJECT_NAME} library)
+target_link_libraries(${PROJECT_NAME}
+    library
+    glfw
+)
