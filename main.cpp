@@ -1,9 +1,12 @@
 #include <iostream>
 #include "library.h"
 #include <GLFW/glfw3.h>
+#include <Config.h>
 
-int main()
+int main(int argc, char* argv[]) )
 {
+    std::cout << argv[0] << " Version " << MYPROJECT_VERSION_MAJOR << "." << MYPROJECT_VERSION_MINOR << '\n';
+
     GLFWwindow *window;
 
     if (!glfwInit())
@@ -22,7 +25,6 @@ int main()
     }
 
     // Main Loop
-
     while (!glfwWindowShouldClose(window))
     {
         glfwPollEvents();
